@@ -31,3 +31,7 @@
     justify-content:center;
     flex-direction: column;
    }
+
+.mc_embed_signup_scroll{
+    padding-top:1%;
+}
