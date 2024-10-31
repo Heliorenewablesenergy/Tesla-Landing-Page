@@ -25,7 +25,7 @@
    .formcontainer{
     background-image: radial-gradient(rgba(255,153,79,255 ), rgba(250,83,32,255));
     height:90%;
-    width:100%;
+    width:90%;
     display:flex;
     align-items: center;
     justify-content:center;
