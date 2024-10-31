@@ -1,0 +1,347 @@
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    font-family: "Open Sans";
+    }
+
+.banner {
+    background-image: radial-gradient(rgba(255,153,79,255 ), rgba(250,83,32,255));
+    height: 575px;
+    width:100%;
+}
+.banner img {
+    padding-top:1.04%;
+    padding-left: 2.08%;
+    width:20%;
+}
+
+.CTA {
+    color: white;
+    width:50%;
+    padding-left: 10.41%;
+    padding-top: 2%;
+    width:34.72%;
+}
+
+.CTA h2{
+    padding-top: 30px;
+    font-weight: 200;
+}
+
+.CTA button{
+    background-color: black;
+    width:50%;
+    color:white;
+    padding:2%;
+    border-radius: 30px;
+    top:10px;
+    font-size: 20px;
+}
+
+.house {
+    top:100px;
+    right:10.41%;
+    position:absolute;
+    width:27.7%;
+}
+
+.house img{
+    width:100%;
+}
+
+.partnerlogos{
+    background-image: radial-gradient(rgba(255,153,79,255 ), rgba(250,83,32,255));
+    height:125px;
+    width:100%;
+    top:30px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.textsection {
+    height: 550px;
+    background-color: white;
+    width:100%;
+}
+.textsection h1,p{
+    font-size:20px;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textsection img {
+    width:40%;
+    padding:5%;
+    padding-top:75px;
+    height:70%;
+}
+
+.tscontainer {
+    width:40%;
+    float:right;
+    padding-top:7%;
+    padding-right:5%;
+}
+
+
+.tscontainer li{
+    padding-top:20px;
+}
+
+.tscontainer li::before{
+    content:"";
+    display:inline-block;
+    width:30px;
+    height:20%;
+    float:left;
+}
+.teslafunc label{
+    font-weight: 300;
+}
+.reviews {
+    padding-left:10%;
+    padding-right:10%;
+    top:20%;
+}
+
+.elfsight-app-6f959147-28ac-4f1a-9986-7ae78893cfe6{
+    padding-top:15%;
+}
+
+  .CTAB {
+    background-image: radial-gradient(rgba(255,153,79,255 ), rgba(250,83,32,255));
+    height:150px;
+    width:100%;
+  }
+
+  .CTAB {
+    color: white;
+    width:100%;
+    padding-top: 70px;
+    font-size: 25px;
+
+  }
+  .CTABtext{
+    text-align: center;
+  }
+  .CTAB button{
+    background-color: black;
+    width:30%;
+    color:white;
+    padding: 1%;
+    border-radius: 30px;
+    top:10px;
+    font-size: 20px;
+  }
+  .btn{
+    margin-left: 40%;
+    padding-top: 1%;
+  }
+
+
+
+  .iconscontainer{
+    background-image: white;
+    height:120px;
+    width:100%;
+    top:30px;
+    padding-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconscontainer img{
+    width:30%;
+    padding-left:35%;
+}
+
+.captionscontainer {
+    background-image: white;
+    height:30%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.captions {
+    width:15%;
+}
+
+.captions p{
+    text-align: center;
+    
+}
+
+
+@media only screen and (max-width:1280px) {
+    
+    .house{
+        width:40%;
+    }
+    
+}
+
+@media only screen and (max-width:1024px){
+
+    .elfsight-app-6f959147-28ac-4f1a-9986-7ae78893cfe6{
+        padding-top:30%;
+    }
+    }
+
+@media only screen and (max-width:830px){
+
+    .banner {
+        height:475px;
+    }
+
+    .CTA h1{
+        font-size: 25px;
+    }
+    .CTA h2{
+        font-size: 20px;
+    }
+
+    .textsection {
+        height:auto;
+    }
+    .textsection h1,p{
+        font-size:20px;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .textsection img {
+        width:80%;
+        padding:0%;
+        padding-top:30px;
+        padding-left: 10%;
+    }
+    
+    .tscontainer {
+        width:90%;
+        float:none;
+        padding-top:2%;
+        padding-right:5%;
+        margin-left: 5%;
+    }
+    
+    
+    .tscontainer li{
+        padding-top:20px;
+    }
+    
+    .tscontainer li::before{
+        content:"";
+        display:inline-block;
+        width:30px;
+        height:20%;
+        float:none;
+    }
+    .teslafunc label{
+        font-weight: 300;
+    }
+
+    .elfsight-app-6f959147-28ac-4f1a-9986-7ae78893cfe6{
+        padding-top:5%;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+
+
+    .CTA button{
+        background-color: black;
+        width:70%;
+        color:white;
+        padding:2%;
+        border-radius: 30px;
+        top:10px;
+        font-size: 20px;
+    }
+
+    .partnerlogos{
+        background-image: radial-gradient(rgba(255,153,79,255 ), rgba(250,83,32,255));
+        height:75px;
+        width:100%;
+        top:30px;
+        padding-bottom: 35px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+}
+
+@media only screen and (max-width:585px){
+
+.CTA h1 {
+    font-size: 22px;
+}
+
+.CTAB button{
+    width:50%;
+}
+
+.btn{
+    margin-left: 35%;
+    padding-top: 1%;
+  }
+
+}
+
+@media only screen and (max-width:515px){
+
+    
+    .CTA{
+        width:89%;
+        padding-top: 60%;
+        color: white;
+        padding-left: 7%;
+    }
+    
+    .house {
+        width:70%;
+    }
+
+    .house img{
+        width:70%;
+    }
+
+    .partnerlogos{
+        background-image: radial-gradient(rgba(255,153,79,255 ), rgba(250,83,32,255));
+        height:60px;
+        width:100%;
+        top:30px;
+        padding-bottom: 35px;
+        padding-top: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+    .CTABtext {
+        font-size:20px;
+    }
+
+
+}
+@media only screen and (max-width:430px){
+    .CTABtext{
+        font-size:16px;
+    }
+}
