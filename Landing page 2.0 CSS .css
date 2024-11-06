@@ -86,7 +86,7 @@
 .tscontainer {
     width:40%;
     float:right;
-    padding-top:7%;
+    padding-top:5%;
     padding-right:5%;
 }
 
@@ -145,6 +145,22 @@
     padding-top: 1%;
   }
 
+  .casestudy {
+    text-align: center;
+    padding-top: 2%;
+
+  }
+
+  .csimg{
+    flex-direction:row ;
+  }
+
+  .csimg video{
+    width:60%;
+    padding:3%;
+  }
+
+
 
 
   .iconscontainer{
@@ -181,11 +197,40 @@
     
 }
 
+.mc_embed_shell {
+    align:center;
+}
+
 
 @media only screen and (max-width:1280px) {
     
     .house{
         width:40%;
+    }
+    .textsection {
+        height:auto;
+    }
+    .textsection h1,p{
+        font-size:20px;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .textsection img {
+        width:80%;
+        padding:0%;
+        padding-top:30px;
+        padding-left: 10%;
+    }
+    
+    .tscontainer {
+        width:90%;
+        float:none;
+        padding-top:2%;
+        padding-right:5%;
+        margin-left: 5%;
     }
     
 }
@@ -195,6 +240,15 @@
     .elfsight-app-6f959147-28ac-4f1a-9986-7ae78893cfe6{
         padding-top:30%;
     }
+    
+    .csimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .csimg img{
+        width:50%;
     }
 
 @media only screen and (max-width:830px){
@@ -256,7 +310,13 @@
         padding-top:5%;
     }
 
-}
+    .csimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
 
 @media only screen and (max-width:700px){
 
